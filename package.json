@@ -1,0 +1,19 @@
+{
+  "name": "renamalizer",
+  "version": "1.0.0",
+  "main": "app.js",
+  "bin": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Beenlord",
+  "dependencies": {
+    "transliteration": "^2.3.5"
+  },
+  "pkg": {
+    "scripts": "./app.js",
+    "targets": [ "node16-linux-x64", "node16-win-x64" ],
+    "outputPath": "dist"
+  }
+}
