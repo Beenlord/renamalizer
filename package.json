@@ -5,15 +5,20 @@
   "bin": "app.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node app",
+    "build": "pkg ."
   },
   "author": "Beenlord",
   "dependencies": {
+    "prompt": "^1.3.0",
     "transliteration": "^2.3.5"
   },
   "pkg": {
     "scripts": "./app.js",
-    "targets": [ "node16-linux-x64", "node16-win-x64" ],
+    "targets": [
+      "node16-linux-x64",
+      "node16-win-x64"
+    ],
     "outputPath": "dist"
   }
 }
