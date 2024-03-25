@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "main": "programm.js",
   "bin": "programm.js",
-  "type": "module",
   "scripts": {
     "dev": "node programm",
     "build": "pkg ."

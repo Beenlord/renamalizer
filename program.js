@@ -1,6 +1,6 @@
-import path from 'path';
-import fs from 'fs';
-import { slugify } from 'transliteration';
+const path = require('path');
+const fs = require('fs');
+const { slugify } = require('transliteration');
 
 
 const rollbackDir = './rollback.json';
@@ -31,6 +31,7 @@ args.forEach((arg) => {
             })
 
             resolve(rename(arg, name, slug));
+            
         }));
     }
 });
