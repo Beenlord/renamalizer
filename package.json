@@ -1,10 +1,10 @@
 {
   "name": "renamalizer",
   "version": "1.0.0",
-  "main": "programm.js",
-  "bin": "programm.js",
+  "main": "program.js",
+  "bin": "program.js",
   "scripts": {
-    "dev": "node programm",
+    "dev": "node program",
     "build": "pkg ."
   },
   "author": "Beenlord",
@@ -13,7 +13,7 @@
     "transliteration": "^2.3.5"
   },
   "pkg": {
-    "scripts": "./programm.js",
+    "scripts": "./program.js",
     "targets": [
       "node16-linux-x64",
       "node16-win-x64"
